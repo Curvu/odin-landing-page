@@ -23,7 +23,7 @@ a {
 
 .header {
     background-color: #1F2937;
-    height: 500px;
+    padding: 10px 128px; /* MUDAR */
 }
 
 .logo {
@@ -34,9 +34,8 @@ a {
 
 .top {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    gap: 246px;
+    justify-content: space-between;
 }
 
 .hero {
@@ -48,15 +47,13 @@ a {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    flex-wrap: 1;
 }
 
 .header-info {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 84px;
+    justify-content: space-between;
     gap: 64px;
+    margin: 64px 0;
 }
 
 button {
@@ -77,10 +74,26 @@ button {
     background-color: #9b9b9b;
 }
 
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 500px;
-    height: 250px;
+.header-info button {
+    margin-top: 24px;
 }
+
+
+.header,
+.first-container,
+.second-container,
+.third-container {
+    padding: 10px 128px; /* MUDAR */
+}
+
+
+
+/* .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+} */
