@@ -177,8 +177,9 @@ button {
     font-size: 18px;
 }
 
+
 /* FOOTER */
-/* footer {
+footer {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: large;
@@ -186,4 +187,4 @@ button {
     justify-content: center;
     align-items: center;
     height: 100px;
-} */
+}
