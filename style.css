@@ -12,7 +12,7 @@ body {
 .first-container,
 .second-container,
 .third-container {
-    padding: 10px 128px; /* MUDAR */
+    padding: 10px 256px; /* MUDAR */
 }
 
 
@@ -32,7 +32,6 @@ a {
 
 .header {
     background-color: #1F2937;
-    padding: 10px 128px; /* MUDAR */
 }
 
 .logo {
@@ -120,6 +119,31 @@ button {
     align-items: center;
     width: 200px;
     margin: 20px;
+}
+
+
+/* SECOND CONTAINER */
+.second-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    text-align: right;
 }
 
 
