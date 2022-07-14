@@ -10,8 +10,7 @@ body {
 
 .header,
 .first-container,
-.second-container,
-.third-container {
+.second-container {
     padding: 10px 256px; /* MUDAR */
 }
 
@@ -146,6 +145,37 @@ button {
     text-align: right;
 }
 
+
+/* THIRD CONTAINER */
+.third-container {
+    margin: 80px 256px; /* MUDAR */
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third-container button {
+    border: 3px solid white;
+}
+
+.texts {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.texts p {
+    margin: 0;
+}
+
+.third-subtext {
+    font-size: 18px;
+}
 
 /* FOOTER */
 /* footer {
